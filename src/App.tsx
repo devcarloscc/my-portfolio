@@ -1,19 +1,11 @@
+import Home from "./assets/pages/Home/Home"
+
 function App() {
 
   return (
-    <div>
-      <nav className="">
-        <ul>
-          <li>
-            Home
-          </li>
-          <li>
-            Projetos
-          </li>
-          <li>Contato</li>
-        </ul>
-      </nav>
-    </div>
+    <>
+      <Home/>
+    </>
   )
 }
 
